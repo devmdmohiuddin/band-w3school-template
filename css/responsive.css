@@ -1,0 +1,56 @@
+@media screen and (max-width: 1024px){
+    .band-section .row{
+        width: 80%;
+    }
+    .sold{
+        width: 80%;
+    }
+    .tour-img{
+        width: 80%;
+    }
+    .contact-container{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 768px){
+    .band-section .row{
+        width: 95%;
+    }
+    .sold{
+        width: 95%;
+    }
+    .tour-img{
+        width: 95%;
+    }
+    .contact-container{
+        width: 95%;
+    }
+}
+@media screen and (max-width: 600px){
+    .hide{
+        display: none;
+    }
+    .mobile-menu span{
+        display: block;
+    }
+    .span_1_of_3{
+        width: 100%;
+    }
+    .tour-img{
+        width: 95%;
+        margin: 0 auto;
+        line-height: 0;
+    }
+    .tour-img img{
+        width: 100%;
+    }
+    .tour-section .col:nth-child(2), .col:nth-child(3){
+        margin-left: 0;
+    }
+    .span_1_of_2{
+        width: 100%;
+    }
+    .contact-section .col:nth-child(2){
+        margin-left: 0;
+    }
+}
